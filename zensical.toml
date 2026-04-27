@@ -7,6 +7,7 @@
 # ============================================================================
 
 [project]
+docs_dir = "."
 
 # The site_name is shown in the page header and the browser window title
 #
@@ -70,13 +71,13 @@ nav = [
     {"FAQ" = "faq.md"}
   ]},
 
-  {"Analytics" = [
-    {"Usage Insights" = "analytics.md"}
-  ]},
+ # {"Analytics" = [
+ #   {"Usage Insights" = "analytics.md"}
+ # ]},
 
-  {"AI Assistant" = [
-    {"Ask HyperSense" = "assistant.md"}
-  ]}
+ # {"AI Assistant" = [
+ #   {"Ask HyperSense" = "assistant.md"}
+ # ]}
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
