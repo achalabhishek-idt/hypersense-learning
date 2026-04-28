@@ -7,7 +7,7 @@
 # ============================================================================
 
 [project]
-docs_dir = "docs"
+docs_dir = "."
 
 # The site_name is shown in the page header and the browser window title
 #
