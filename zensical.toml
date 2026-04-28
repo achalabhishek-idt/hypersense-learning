@@ -54,29 +54,29 @@ nav = [
   ]},
 
   {"Getting Started" = [
-    {"Introduction" = "shared/introduction.md"},
-    {"Login & Navigation" = "shared/getting-started.md"}
+    {"Introduction" = "introduction.md"},
+    {"Login & Navigation" = "getting-started.md"}
   ]},
 
   {"Analyst" = [
-    {"Analyst Guide" = "analyst/analyst-guide.md"}
+    {"Analyst Guide" = "analyst-guide.md"}
   ]},
 
   {"Admin" = [
-    {"Admin Guide" = "admin/admin-guide.md"}
+    {"Admin Guide" = "admin-guide.md"}
   ]},
 
   {"Developer" = [
-    {"Developer Guide" = "developer/developer-guide.md"}
+    {"Developer Guide" = "developer-guide.md"}
   ]},
 
   {"Support" = [
-    {"Support Guide" = "support/support-guide.md"},
+    {"Support Guide" = "support-guide.md"},
     {"FAQ" = "faq.md"}
   ]},
 
   {"DevOps" = [
-    {"DevOps Guide" = "devops/devops-guide.md"}
+    {"DevOps Guide" = "devops-guide.md"}
   ]},
 
   {"Tutorials" = [
