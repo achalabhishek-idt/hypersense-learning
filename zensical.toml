@@ -23,7 +23,7 @@ site_description = "A new project generated from the default template project."
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
-site_author = "Subex"
+site_author = "Subex IDT"
 
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
@@ -49,12 +49,34 @@ nav = [
   {"Home" = [
     {"Overview" = "index.md"},
     {"Quick Start" = "quick-start.md"},
-    {"What's New" = "whats-new.md"}
+    {"What's New" = "whats-new.md"},
+    {"Content Map" = "content-map.md"}
   ]},
 
   {"Getting Started" = [
-    {"Introduction" = "intro.md"},
-    {"Login & Navigation" = "login.md"}
+    {"Introduction" = "shared/introduction.md"},
+    {"Login & Navigation" = "shared/getting-started.md"}
+  ]},
+
+  {"Analyst" = [
+    {"Analyst Guide" = "analyst/analyst-guide.md"}
+  ]},
+
+  {"Admin" = [
+    {"Admin Guide" = "admin/admin-guide.md"}
+  ]},
+
+  {"Developer" = [
+    {"Developer Guide" = "developer/developer-guide.md"}
+  ]},
+
+  {"Support" = [
+    {"Support Guide" = "support/support-guide.md"},
+    {"FAQ" = "faq.md"}
+  ]},
+
+  {"DevOps" = [
+    {"DevOps Guide" = "devops/devops-guide.md"}
   ]},
 
   {"Tutorials" = [
@@ -65,11 +87,7 @@ nav = [
 
   {"Certification" = [
     {"Certificates" = "certificates.md"}
-  ]},
-
-  {"Support" = [
-    {"FAQ" = "faq.md"}
-  ]},
+  ]}
 
  # {"Analytics" = [
  #   {"Usage Insights" = "analytics.md"}
