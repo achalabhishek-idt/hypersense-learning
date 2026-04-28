@@ -55,7 +55,7 @@ nav = [
 
   {"Getting Started" = [
     {"Introduction" = "intro.md"},
-    {"Login & Navigation" = "getting-started.md"}
+    {"Login & Navigation" = "login.md"}
   ]},
 
   {"Analyst" = [
