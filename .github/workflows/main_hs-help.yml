@@ -29,6 +29,9 @@ jobs:
       - name: Build static site
         run: zensical build --clean
 
+      - name: Copy web.config to site directory
+        run: cp web.config site/web.config
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
