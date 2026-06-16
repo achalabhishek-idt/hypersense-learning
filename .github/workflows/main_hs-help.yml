@@ -46,7 +46,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: site
-          path: .
+          path: site
       
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -54,5 +54,5 @@ jobs:
         with:
           app-name: 'HS-help'
           slot-name: 'Production'
-          package: .
+          package: site
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5DE8E2EA437B47DEBAA16060E0C0D921 }}
